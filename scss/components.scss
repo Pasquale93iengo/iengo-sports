@@ -1,0 +1,35 @@
+.page-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: $primary-color;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .contacto form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .contacto form button {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    @include transition(background, 0.3s);
+    width: 100%;
+  }
+  
+  .contacto form button:hover {
+    background-color: darken($primary-color, 10%);
+  }
+  

@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: $bg-color;
+    color: $text-color;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  
+  header {
+    background-color: $primary-color;
+    padding: 10px 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }

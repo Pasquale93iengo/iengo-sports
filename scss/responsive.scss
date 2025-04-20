@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .noticias-grid,
+    .historia-grid,
+    .partidos-grid {
+      grid-template-columns: 1fr;
+    }
+    .page-title {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .page-title {
+      font-size: 24px;
+    }
+  }
